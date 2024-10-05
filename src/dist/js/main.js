@@ -1,1 +1,1 @@
-document.addEventListener("DOMContentLoaded",function(){console.log("Landing Page Carregada")});
+function updateCountdown(){var e=new Date("2025-03-11T18:00:00"),t=new Date,e=Math.ceil((e-t)/864e5),t=document.getElementById("countdown");t.textContent=0<e?e+" dias até o meu aniversário!":"É o meu aniversário hoje! 🎉"}updateCountdown();
